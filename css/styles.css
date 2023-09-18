@@ -55,7 +55,7 @@ h2 {
 }
 
 .animal1, .animal2, .animal3, .animal4, .animal5,
-.animal6, .animal7 ,.animal8{
+.animal6{
     max-width: 100%;
     height: 300px;
     background-size: cover;
@@ -94,17 +94,6 @@ h2 {
     grid-area: animal6;
 }
 
-.animal7 {
-    width:400px;
-    background-image: url(../img/Loro.jpg);
-    grid-area: animal7;
-}
-
-.animal8 {
-    width:400px;
-    background-image: url(../img/Chaparron.jpg);
-    grid-area: animal8;
-}
 
 form {
     padding: 50px;
