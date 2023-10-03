@@ -1,109 +1,115 @@
-nav li{
-    background-color: greenyellow;
-    display: inline;
-    margin: 20px;
-    
+nav li {
+  background-color: greenyellow;
+  display: inline;
+  margin: 20px;
 }
 
 a {
-    text-decoration:none;
-
-
-}
-
-nav {
-
-    background-color: greenyellow;
-    display: flex;
-    flex-direction: row;
-    justify-content:flex-start;
-    align-items: center;
-
-}
-
-.parrafo-presentacion {
-
-    display: flex;
-    flex-direction: row;
-    justify-content:flex-start;
-    align-items: center;
+  text-decoration: none;
 }
 
 h1 {
-    margin: 50px;
+  padding: 50px;
 }
 
-.animal-h1 {
-    margin: 50px;
-}
-
-
-.social {
-    display: flex;
-    flex-direction: row;
-    justify-content:flex-end;
-    align-items: center;
-    gap:20px;
+nav {
+  background-color: greenyellow;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
 }
 
 .parrafo-presentacion {
-    padding: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: aqua;
+  padding: 10px;
+  text-align: left;
+}
+
+.social {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 20px;
 }
 
 h2 {
-    margin:50px
+  margin: 50px;
 }
 
 .animal1, .animal2, .animal3, .animal4, .animal5,
-.animal6{
-    max-width: 100%;
-    height: 300px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-  }
+.animal6 {
+  max-width: 100%;
+  height: 300px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
 
 .animal1 {
-    width:400px;
-    background-image: url(../img/pato.jpeg);
-    grid-area: animal1; }
+  width: 400px;
+  background-image: url(../img/pato.jpeg);
+  grid-area: animal1;
+}
 
 .animal2 {
-    width:400px;
-    background-image: url(../img/gato.jpg);
-    grid-area: animal2; }
+  width: 400px;
+  background-image: url(../img/gato.jpg);
+  grid-area: animal2;
+}
 
 .animal3 {
-    width:400px;
-    background-image: url(../img/tortuga.jpg);
-    grid-area: animal3;}    
+  width: 400px;
+  background-image: url(../img/tortuga.jpg);
+  grid-area: animal3;
+}
 
 .animal4 {
-    width:400px;
-    background-image: url(../img/gallina.jpeg);
-    grid-area: animal4; }
+  width: 400px;
+  background-image: url(../img/gallina.jpeg);
+  grid-area: animal4;
+}
 
 .animal5 {
-    width:400px;
-    background-image: url(../img/perro.jpg);
-    grid-area: animal5; }
+  width: 400px;
+  background-image: url(../img/perro.jpg);
+  grid-area: animal5;
+}
 
 .animal6 {
-    width:400px;
-    background-image: url(../img/Chancho.jpeg);
-    grid-area: animal6;
+  width: 400px;
+  background-image: url(../img/Chancho.jpeg);
+  grid-area: animal6;
 }
-
 
 form {
-    padding: 50px;
-
+  padding: 50px;
 }
 
+body {
+  background-image: url(../img/Darko.jpg);
+  text-align: center;
+}
 
+label {
+  background-color: aqua;
+}
 
+.animal1p, .animal2p, .animal3p, .animal4p, .animal5p, .animal6p {
+  font-weight: bold;
+}
 
+.p-index {
+  font-weight: bold;
+}
 
+.img-index {
+  height: 100px;
+}
 
-
-
+/*# sourceMappingURL=styles.css.map */
