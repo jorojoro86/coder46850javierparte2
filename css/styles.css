@@ -108,8 +108,44 @@ label {
   font-weight: bold;
 }
 
+.social img {
+  height: 100px;
+  width: 100px;
+}
+
 .img-index {
   height: 100px;
+}
+
+@media (max-width: 1024px) {
+  .img-sanmiguel {
+    width: 800px;
+  }
+}
+@media (max-width: 768px) {
+  .img-sanmiguel {
+    width: 400px;
+  }
+}
+@media (max-width: 375px) {
+  .img-sanmiguel {
+    width: 200px;
+  }
+}
+@media (max-width: 1024px) {
+  .img-humanoconperro {
+    width: 800px;
+  }
+}
+@media (max-width: 768px) {
+  .img-humanoconperro {
+    width: 400px;
+  }
+}
+@media (max-width: 375px) {
+  .img-humanoconperro {
+    width: 200px;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
